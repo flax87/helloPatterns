@@ -1,10 +1,24 @@
+/*
+ * @author  Oleksii Shevchenko KNUTE 1m
+ *
+ * Programming patterns. Factory, Builder
+ *
+ *@version 16.06.20
+ * Develop for your class
+ *
+ * 1. Factory.
+ * 2. Abstract factory.
+ * 3. Create a class Student  - 25 fields.
+ * 4. Create a builder for the class Student
+ */
+
 package com.company;
 
 import java.util.Objects;
 
 public class Student {
 
-
+    //3. Create a class Student  - 25 fields.
     public class Student
     {
         private String secondName;                // Secomd name of student
@@ -285,7 +299,7 @@ public class Student {
                     '}';
         }
 
-        // Creating class Builder
+        //5. Creating class Builder
         public static class Builder
         {
             private Student studentToBuild;
