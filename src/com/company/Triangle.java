@@ -1,3 +1,17 @@
+/*
+ * @author  Oleksii Shevchenko KNUTE 1m
+ *
+ * Programming patterns. Factory, Builder
+ *
+ *@version 16.06.20
+ * Develop for your class
+ *
+ * 1. Factory.
+ * 2. Abstract factory.
+ * 3. Create a class Student  - 25 fields.
+ * 4. Create a builder for the class Student
+ */
+
 package com.company;
 
 public class Triangle implements IGeometry {
@@ -66,7 +80,7 @@ public class Triangle implements IGeometry {
 
 
 
-
+// to String
     @Override
     public String toString() {
         return "Triangle{" +
@@ -76,17 +90,6 @@ public class Triangle implements IGeometry {
                 " Area = "+getArea()+ "\r\n"+
                 " Perimetr = "+getPerimetr()+
                 '}';
-    }
-
-    @Override
-    public double GetArea() {
-        double perimeter = GetPerimeter();
-        return Math.sqrt(perimeter * (perimeter - a) * (perimeter - b) * (perimeter - c));
-    }
-
-    @Override
-    public double GetPerimeter() {
-        return a+b+c;
-    }
+    
 }
 
