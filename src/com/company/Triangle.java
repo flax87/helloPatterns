@@ -18,7 +18,7 @@ public class Triangle implements IGeometry {
 
 
 
-        private double a;
+        private double a;                       // a,b,c - sides of the triangle
         private double b;
         private double c;
 
