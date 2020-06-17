@@ -3,7 +3,7 @@
  *
  * Programming patterns. Factory, Builder
  *
- *
+ *@version 16.06.20
  * Develop for your class
  *
  * 1. Factory.
@@ -14,7 +14,6 @@
 package com.company;
 
 //2.Create Abstract Factory
-
 public class AbstractFactory {
 
         public static IGeometry create(double a, double b, Figure figure)
